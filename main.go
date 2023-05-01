@@ -3,7 +3,7 @@ package main
 func main() {
 
 	cards := newDeck()
-	cards.print()
+	//cards.print()
 	cards.shuffle()
 	cards.print()
 	//for i, card := range cards {
